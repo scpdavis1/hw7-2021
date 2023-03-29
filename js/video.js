@@ -68,10 +68,10 @@ document.querySelector("#mute").addEventListener("click", function(){
 	vid.muted = !vid.muted;
 	if (vid.muted) {
 		console.log("mute");
-		document.querySelector("#mute").innerHTML = "unmute";
+		document.querySelector("#mute").innerHTML = "Unmute";
 	} else {
 		console.log("unmute");
-		document.querySelector("#mute").innerHTML = "mute";
+		document.querySelector("#mute").innerHTML = "Mute";
 	}
 });
 
